@@ -1,0 +1,39 @@
+2023-02-15 11:04:15,746 INFO com.bosch.sast.sudoku.validator.SudokuValidatorIntegrationTest [Test worker] The following profiles are active: prod
+2023-02-15 11:04:16,294 WARN org.springframework.boot.actuate.endpoint.EndpointId [Test worker] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2023-02-15 11:04:18,337 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Starting...
+2023-02-15 11:04:18,566 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Start completed.
+2023-02-15 11:04:18,681 INFO org.hibernate.jpa.internal.util.LogHelper [Test worker] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-15 11:04:18,798 INFO org.hibernate.Version [Test worker] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-02-15 11:04:19,022 INFO org.hibernate.annotations.common.Version [Test worker] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-15 11:04:19,229 INFO org.hibernate.dialect.Dialect [Test worker] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-15 11:04:20,049 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [Test worker] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-15 11:04:21,058 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [Test worker] No spring.application.name found, defaulting to 'application'
+2023-02-15 11:04:21,063 WARN com.netflix.config.sources.URLConfigurationSource [Test worker] No URLs will be polled as dynamic configuration sources.
+2023-02-15 11:04:21,064 INFO com.netflix.config.sources.URLConfigurationSource [Test worker] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-15 11:04:21,076 WARN com.netflix.config.sources.URLConfigurationSource [Test worker] No URLs will be polled as dynamic configuration sources.
+2023-02-15 11:04:21,077 INFO com.netflix.config.sources.URLConfigurationSource [Test worker] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-15 11:04:21,335 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [Test worker] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-15 11:04:24,878 INFO com.bosch.sast.sudoku.validator.SudokuValidatorIntegrationTest [Test worker] Started SudokuValidatorIntegrationTest in 10.737 seconds (JVM running for 12.803)
+2023-02-15 11:04:25,639 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-1] Saving new board
+2023-02-15 11:04:25,883 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-2] Validating board for the id 1
+2023-02-15 11:04:25,919 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-2] Validating grid
+2023-02-15 11:04:25,920 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-2] Validating grid
+2023-02-15 11:04:25,960 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-3] Saving new board
+2023-02-15 11:04:26,050 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-4] Saving new board
+2023-02-15 11:04:26,085 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-5] Deleting board for the id 3
+2023-02-15 11:04:26,349 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-6] Saving new board
+2023-02-15 11:04:26,368 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-7] Validating board for the id 4
+2023-02-15 11:04:26,374 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-7] Validating grid
+2023-02-15 11:04:26,374 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-7] Validating grid
+2023-02-15 11:04:26,394 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-8] Saving new board
+2023-02-15 11:04:26,416 INFO com.bosch.sast.sudoku.validator.service.ValidatorServiceImpl [hystrix-SUDOKU_VALIDATOR-9] Getting board for the id 5
+2023-02-15 11:04:26,470 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-15 11:04:26,475 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2023-02-15 11:04:26,475 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Die Datenbank wurde bereits geschlossen (um das automatische Schliessen beim Stopp der VM zu deaktivieren, die Datenbank URL mit ";DB_CLOSE_ON_EXIT=FALSE" ergänzen)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-02-15 11:04:26,477 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2023-02-15 11:04:26,478 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Die Datenbank wurde bereits geschlossen (um das automatische Schliessen beim Stopp der VM zu deaktivieren, die Datenbank URL mit ";DB_CLOSE_ON_EXIT=FALSE" ergänzen)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-02-15 11:04:26,478 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2023-02-15 11:04:26,479 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-15 11:04:26,482 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
